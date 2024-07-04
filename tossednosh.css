@@ -14,6 +14,12 @@ header {
     text-align: center;
 }
 
+.header-logo {
+    background-image: url('path/to/your/logo.png');
+    /* Add other styling properties as needed */
+}
+
+
 nav ul {
     list-style-type: none;
     padding: 0;
