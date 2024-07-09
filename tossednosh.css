@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #568203; /* Avocado Green */
+    background-color: #B2C248; /* Avocado Green */
     color: white;
     padding: 1em 0;
     text-align: center;
@@ -148,6 +148,41 @@ button:hover {
     transform: scale(1.1);
 }
 
+/* New Product List Styling */
+.product-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-list li {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: calc(33.333% - 20px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-list img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-list h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.product-list p {
+    font-size: 0.9em;
+    color: #555;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     body {
@@ -161,6 +196,10 @@ button:hover {
     nav ul li {
         display: block;
         margin: 10px 0;
+    }
+
+    .product-list li {
+        width: calc(50% - 20px);
     }
 }
 
@@ -183,8 +222,17 @@ button:hover {
         margin: 10px 0;
     }
 
+    .product-list li {
+        width: 100%;
+    }
+
     footer {
-        position: static;
-        padding: 20px;
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
     }
 }
