@@ -4,21 +4,16 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #F7DDCA; /* Peach background */
+    color: #333;
 }
 
 header {
-    background-color: #B2C248; /* Avocado Green */
+    background-color: #98FF98; /* Mint Green */
     color: white;
     padding: 1em 0;
     text-align: center;
 }
-
-.header-logo {
-    background-image: url('Images/Tossed Logo 3.png');
-    /* Add other styling properties as needed */
-}
-
 
 nav ul {
     list-style-type: none;
@@ -37,6 +32,7 @@ nav ul li a {
 
 main {
     padding: 20px;
+    background-color: #FFF5E1; /* Light Peach */
 }
 
 section {
@@ -60,13 +56,13 @@ section {
 
 .recipe h3, .tip h3 {
     margin-top: 0;
-    color: #ff6347;
+    color: #FFB6C1; /* Light Pink */
 }
 
 .recipe img {
-    width: 100%; /* Adjust to fit the container */
-    max-width: 300px; /* Set a maximum width */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%;
+    max-width: 300px;
+    height: auto;
     border-radius: 5px;
     margin-bottom: 15px;
     display: block;
@@ -86,7 +82,8 @@ footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 5px 0;
+    font-size: 0.8em;
     position: fixed;
     width: 100%;
     bottom: 0;
@@ -102,7 +99,7 @@ footer {
 }
 
 #shopping-list h2 {
-    color: #ff6347;
+    color: #FFB6C1; /* Light Pink */
 }
 
 #list {
@@ -125,17 +122,42 @@ footer {
 
 button {
     padding: 10px 20px;
-    background-color: #ff6347;
+    background-color: #FFB6C1; /* Light Pink */
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
+    position: relative;
+    overflow: hidden;
 }
 
 button:hover {
     background-color: #e5533d;
     transform: scale(1.05);
+}
+
+button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('Images/sparkle.png') repeat;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+}
+
+button:hover::before {
+    opacity: 1;
+    animation: sparkle 1s infinite;
+}
+
+@keyframes sparkle {
+    0% { background-position: 0 0; }
+    100% { background-position: 100px 100px; }
 }
 
 .social-buttons {
@@ -144,8 +166,8 @@ button:hover {
 }
 
 .social-buttons img {
-    width: 30px; /* Adjust the size as needed */
-    height: 30px; /* Adjust the size as needed */
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     transition: transform 0.3s;
 }
@@ -241,4 +263,19 @@ button:hover {
         width: 100%;
         bottom: 0;
     }
+}
+
+.sparkle {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: url('Images/sparkle.png') no-repeat center center;
+    background-size: contain;
+    pointer-events: none;
+    animation: sparkle-fade 1s forwards;
+}
+
+@keyframes sparkle-fade {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
 }
