@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tossed Nosh</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Tossed Nosh</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="#tips">Healthy Eating Tips</a></li>
+                <li><a href="#products">Product Recommendations</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#shopping-list">Shopping List</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>About Tossed Nosh</h2>
+            <p>Welcome to Tossed Nosh, your go-to source for healthy eating tips, delicious recipes, and product recommendations.</p>
+        </section>
+        <section id="recipes">
+            <h2>Recipes</h2>
+            <article class="recipe">
+                <h3>Avocado Toast</h3>
+                <img src="Images/IMG_0096.png" alt="Avocado Toast">
+                <p>A simple and delicious recipe for a healthy breakfast or snack.</p>
+                <ul>
+                    <li>2 slices of whole grain bread</li>
+                    <li>1 ripe avocado</li>
+                    <li>Salt and pepper to taste</li>
+                    <li>Optional toppings: cherry tomatoes, radishes, arugula, etc.</li>
+                </ul>
+                <p>Instructions:</p>
+                <ol>
+                    <li>Toast the bread slices to your liking.</li>
+                    <li>Mash the avocado in a bowl and season with salt and pepper.</li>
+                    <li>Spread the mashed avocado on the toasted bread.</li>
+                    <li>Add your favorite toppings and enjoy!</li>
+                </ol>
+            </article>
+            <article class="recipe">
+                <h3>Flourless Peanut Butter Cookies</h3>
+                <img src="Images/F79327B4-2EF2-463A-8EC6-D22E0728B072.jpeg" alt="Flourless Peanut Butter Cookies">
+                <p>These Flourless Peanut Butter Cookies are a game-changer! I discovered a recipe and made a few tweaks. The result was absolutely incredible and it's the perfect solution for anyone with a sweet tooth!</p>
+                <ul>
+                    <li>1 cup peanut butter</li>
+                    <li>¾ cup sugar or substitute (I used stevia)</li>
+                    <li>1 large egg whites (or regular egg)</li>
+                    <li>½ teaspoon baking soda</li>
+                    <li>¼ teaspoon salt</li>
+                    <li>1 cup semisweet chocolate morsels (optional)</li>
+                    <li>1 tsp vanilla extract</li>
+                    <li>Parchment paper</li>
+                </ul>
+                <p>Instructions:</p>
+                <ol>
+                    <li>Mix ingredients until well blended.</li>
+                    <li>Shape the dough before baking as they do not expand in the oven.</li>
+                    <li>Bake at 350°F for 12 minutes.</li>
+                </ol>
+            </article>
+            <article class="recipe">
+                <h3>Prep-Ahead Breakfast Sandwiches</h3>
+                <img src="Images/79E2FD51-05D4-43A2-98A8-998D0FF006EC.jpeg" alt="Prep-Ahead Breakfast Sandwiches">
+                <p>These breakfast sandwiches are perfect for meal prep and can be customized to your liking!</p>
+                <ul>
+                    <li>Plant-based breakfast sausage (or meat of choice)</li>
+                    <li>Plant-based egg (or egg of choice)</li>
+                    <li>Cheese</li>
+                    <li>Rye bread (or bread of choice)</li>
+                </ul>
+                <p>Instructions:</p>
+                <ol>
+                    <li>Cook the breakfast sausage according to package instructions.</li>
+                    <li>Prepare the plant-based egg as desired (scrambled, fried, etc.).</li>
+                    <li>Toast the rye bread slices.</li>
+                    <li>Assemble the sandwich: place the sausage, egg, and cheese between two slices of toasted bread.</li>
+                    <li>Wrap each sandwich in parchment paper and store in the refrigerator or freezer.</li>
+                    <li>To reheat, unwrap the sandwich and microwave for 1-2 minutes or until heated through.</li>
+                </ol>
+            </article>
+            <!-- New Recipes -->
+            <article class="recipe">
+                <h3>Quinoa Salad with Chickpeas</h3>
+                <img src="Images/quinoa_salad.png" alt="Quinoa Salad with Chickpeas">
+                <p>A refreshing and protein-packed salad perfect for lunch or dinner.</p>
+                <ul>
+                    <li>1 cup quinoa</li>
+                    <li>1 can chickpeas, drained and rinsed</li>
+                    <li>1 cucumber, diced</li>
+                    <li>1 bell pepper, diced</li>
+                    <li>1/4 cup red onion, finely chopped</li>
+                    <li>1/4 cup fresh parsley, chopped</li>
+                    <li>Juice of 1 lemon</li>
+                    <li>2 tbsp olive oil</li>
+                    <li>Salt and pepper to taste</li>
+                </ul>
+                <p>Instructions:</p>
+                <ol>
+                    <li>Cook quinoa according to package instructions and let it cool.</li>
+                    <li>In a large bowl, combine quinoa, chickpeas, cucumber, bell pepper, red onion, and parsley.</li>
+                    <li>In a small bowl, whisk together lemon juice, olive oil, salt, and pepper.</li>
+                    <li>Pour the dressing over the salad and toss to combine.</li>
+                    <li>Serve chilled or at room temperature.</li>
+                </ol>
+            </article>
+            <article class="recipe">
+                <h3>Sweet Potato and Black Bean Tacos</h3>
+                <img src="Images/sweet_potato_tacos.png" alt="Sweet Potato and Black Bean Tacos">
+                <p>These tacos are a delicious and nutritious option for a quick meal.</p>
+                <ul>
+                    <li>2 large sweet potatoes, peeled and diced</li>
+                    <li>1 can black beans, drained and rinsed</li>
+                    <li>1 tbsp olive oil</li>
+                    <li>1 tsp cumin</li>
+                    <li>1 tsp chili powder</li>
+                    <li>Salt and pepper to taste</li>
+                    <li>8 small corn tortillas</li>
+                    <li>Optional toppings: avocado, salsa, cilantro, lime wedges</li>
+                </ul>
+                <p>Instructions:</p>
+                <ol>
+                    <li>Preheat oven to 400°F (200°C).</li>
+                    <li>Toss sweet potatoes with olive oil, cumin, chili powder, salt, and pepper.</li>
+                    <li>Spread sweet potatoes on a baking sheet and roast for 25-30 minutes, until tender.</li>
+                    <li>In a small saucepan, heat black beans over medium heat until warmed through.</li>
+                    <li>Assemble tacos by placing sweet potatoes and black beans on tortillas.</li>
+                    <li>Add your favorite toppings and serve.</li>
+                </ol>
+            </article>
+            <article class="recipe">
+                <h3>Spinach and Feta Stuffed Peppers</h3>
+                <img src="Images/stuffed_peppers.png" alt="Spinach and Feta Stuffed Peppers">
+                <p>A flavorful and healthy dish that's easy to prepare.</p>
+                <ul>
+                    <li>4 bell peppers, halved and seeded</li>
+                    <li>1 cup cooked quinoa</li>
+                    <li>2 cups fresh spinach, chopped</li>
+                    <li>1/2 cup crumbled feta cheese</li>
+                    <li>1/4 cup chopped sun-dried tomatoes</li>
+                    <li>1 tbsp olive oil</li>
+                </ul>
+                           <p>Instructions:</p>
+                <ol>
+                    <li>Preheat oven to 375°F (190°C).</li>
+                    <li>In a large bowl, combine quinoa, spinach, feta, sun-dried tomatoes, olive oil, salt, and pepper.</li>
+                    <li>Stuff bell pepper halves with the quinoa mixture.</li>
+                    <li>Place stuffed peppers in a baking dish and cover with foil.</li>
+                    <li>Bake for 30 minutes, then remove foil and bake for an additional 10 minutes.</li>
+                    <li>Serve warm.</li>
+                </ol>
+            </article>
+        </section>
+        <section id="tips">
+            <h2>Healthy Eating Tips</h2>
+            <article class="tip">
+                <h3>Stay Hydrated</h3>
+                <p>Drinking enough water is crucial for maintaining good health. Aim for at least 8 glasses a day.</p>
+            </article>
+            <article class="tip">
+                <h3>Eat a Balanced Diet</h3>
+                <p>Include a variety of foods in your diet to ensure you get all the necessary nutrients.</p>
+            </article>
+            <article class="tip">
+                <h3>Limit Processed Foods</h3>
+                <p>Try to minimize the intake of processed foods and opt for whole, natural foods instead.</p>
+            </article>
+            <article class="tip">
+                <h3>Incorporate More Plant-Based Meals</h3>
+                <p>Adding more plant-based meals to your diet can improve your health and reduce your environmental footprint.</p>
+            </article>
+            <article class="tip">
+                <h3>Choose Whole Grains</h3>
+                <p>Whole grains are more nutritious than refined grains and can help you feel fuller for longer.</p>
+            </article>
+            <article class="tip">
+                <h3>Snack on Fruits and Vegetables</h3>
+                <p>Fruits and vegetables are packed with vitamins, minerals, and fiber, making them a great choice for snacks.</p>
+            </article>
+            <article class="tip">
+                <h3>Practice Mindful Eating</h3>
+                <p>Pay attention to your hunger and fullness cues, and try to eat without distractions to enjoy your meals more.</p>
+            </article>
+            <article class="tip">
+                <h3>Plan Your Meals</h3>
+                <p>Planning your meals ahead of time can help you make healthier choices and save time during the week.</p>
+            </article>
+            <article class="tip">
+                <h3>Read Nutrition Labels</h3>
+                <p>Understanding nutrition labels can help you make informed choices about the foods you eat.</p>
+            </article>
+            <article class="tip">
+                <h3>Stay Active</h3>
+                <p>Regular physical activity is important for overall health and can complement a healthy diet.</p>
+            </article>
+        </section>
+        <section id="products">
+            <h2>Product Recommendations</h2>
+            <ul class="product-list">
+                <li>
+                    <img src="Images/quinoa.png" alt="Organic Quinoa">
+                    <h3>Organic Quinoa</h3>
+                    <p>A versatile and protein-packed grain that's perfect for salads, bowls, and more.</p>
+                </li>
+                <li>
+                    <img src="Images/chia_seeds.png" alt="Chia Seeds">
+                    <h3>Chia Seeds</h3>
+                    <p>Rich in omega-3 fatty acids, these tiny seeds are great for smoothies and puddings.</p>
+                </li>
+                <li>
+                    <img src="Images/almond_butter.png" alt="Almond Butter">
+                    <h3>Almond Butter</h3>
+                    <p>A creamy and nutritious spread that's perfect for toast, smoothies, and baking.</p>
+                </li>
+                <li>
+                    <img src="Images/greek_yogurt.png" alt="Greek Yogurt">
+                    <h3>Greek Yogurt</h3>
+                    <p>High in protein and probiotics, Greek yogurt is a great base for breakfast bowls and snacks.</p>
+                </li>
+                <li>
+                    <img src="Images/olive_oil.png" alt="Extra Virgin Olive Oil">
+                    <h3>Extra Virgin Olive Oil</h3>
+                    <p>A heart-healthy oil that's perfect for cooking, dressings, and marinades.</p>
+                </li>
+                <li>
+                    <img src="Images/mixed_berries.png" alt="Frozen Mixed Berries">
+                    <h3>Frozen Mixed Berries</h3>
+                    <p>Perfect for smoothies, desserts, and as a topping for yogurt or oatmeal.</p>
+                </li>
+                <li>
+                    <img src="Images/peanut_butter.png" alt="Natural Peanut Butter">
+                    <h3>Natural Peanut Butter</h3>
+                    <p>A delicious and protein-rich spread that's great for snacks and baking.</p>
+                </li>
+                <li>
+                    <img src="Images/oat_milk.png" alt="Oat Milk">
+                    <h3>Oat Milk</h3>
+                    <p>A creamy and dairy-free alternative that's perfect for coffee, smoothies, and baking.</p>
+                </li>
+                <li>
+                    <img src="Images/dark_chocolate.png" alt="Dark Chocolate">
+                    <h3>Dark Chocolate (70% cocoa or higher)</h3>
+                    <p>A rich and antioxidant-packed treat that's perfect for satisfying your sweet tooth.</p>
+                </li>
+                <li>
+                    <img src="Images/whole_grain_bread.png" alt="Whole Grain Bread">
+                    <h3>Whole Grain Bread</h3>
+                    <p>A nutritious and fiber-rich bread that's perfect for sandwiches and toast.</p>
+                </li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:tossednosh@gmail.com">tossednosh@gmail.com</a></p>
+            <div class="social-buttons">
+                <a href="https://www.instagram.com/tossed_nosh?igsh=MWZ5cWhjZzNtam94OQ%3D%3D&utm_source=qr" target="_blank">
+                    <img src="Images/IMG_0094.png" alt="Instagram">
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61561259409406" target="_blank">
+                    <img src="Images/IMG_0095.png" alt="Facebook">
+                </a>
+            </div>
+        </section>
+        <section id="shopping-list">
+            <h2>Shopping List</h2>
+            <ul id="list"></ul>
+            <input type="text" id="item-input" placeholder="Add an item">
+            <button onclick="addItem()">Add</button>
+            <button onclick="printList()">Print</button>
+        </section>
+        <button class="sparkle-button">Hover Me!</button>
+    </main>
+    <footer>
+        <p>© 2024 Tossed Nosh. All rights reserved.</p>
+    </footer>
+    <script>
+  		      document.addEventListener('DOMContentLoaded', function() {
+            const sparkleButton = document.querySelector('.sparkle-button');
+            if (sparkleButton) {
+                sparkleButton.addEventListener('mouseover', function(e) {
+                    for (let i = 0; i < 10; i++) {
+                        createSparkle(e.clientX, e.clientY);
+                    }
+                });
+            }
+
+            function createSparkle(x, y) {
+                const sparkle = document.createElement('div');
+                sparkle.className = 'sparkle';
+                sparkle.style.left = `${x + Math.random() * 20 - 10}px`;
+                sparkle.style.top = `${y + Math.random() * 20 - 10}px`;
+                document.body.appendChild(sparkle);
+
+                setTimeout(() => {
+                    sparkle.remove();
+                }, 1000);
+            }
+
+            const addButton = document.querySelector('button[onclick="addItem()"]');
+            if (addButton) {
+                addButton.addEventListener('click', addItem);
+            }
+
+            const printButton = document.querySelector('button[onclick="printList()"]');
+            if (printButton) {
+                printButton.addEventListener('click', printList);
+            }
+
+            function addItem() {
+                const itemInput = document.getElementById('item-input');
+                const itemText = itemInput.value.trim();
+                if (itemText !== '') {
+                    const listItem = document.createElement('li');
+                    listItem.textContent = itemText;
+                    document.getElementById('list').appendChild(listItem);
+                    itemInput.value = '';
+                }
+            }
+
+            function printList() {
+                console.log("Print function called");
+                const printContents = document.getElementById('shopping-list').innerHTML;
+                const originalContents = document.body.innerHTML;
+
+                document.body.innerHTML = printContents;
+                window.print();
+                document.body.innerHTML = originalContents;
+            }
+        });
+    </script>
+</body>
+</html>
