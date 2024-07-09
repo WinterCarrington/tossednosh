@@ -6,6 +6,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 createSparkle(e.clientX, e.clientY);
             }
         });
+          sparkle.addEventListener('mouseout', () => {
+        sparkle.classList.remove('sparkle-effect');
+    });
     }
 
     function createSparkle(x, y) {
