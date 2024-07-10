@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: #E3ECAD; /* purple-blue */
+    background-color: #D2C8FF; /* purple-blue */
     color: white;
     padding: 1em 0;
     text-align: center;
@@ -90,7 +90,7 @@ footer {
 }
 
 #shopping-list {
-    background-color: #fff;
+    background-color: #D2C8FF;
     border: 1px solid #ddd;
     padding: 15px;
     margin-bottom: 20px;
@@ -99,7 +99,7 @@ footer {
 }
 
 #shopping-list h2 {
-    color: #FFB6C1; /* Light Pink */
+    color: #D2C8FF; /* Light Pink */
 }
 
 #list {
