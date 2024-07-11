@@ -172,7 +172,7 @@ button:hover::before {
     transition: transform 0.3s;
 }
 
-social-buttons img:hover {
+.social-buttons img:hover {
     transform: scale(1.1);
 }
 
@@ -265,17 +265,17 @@ social-buttons img:hover {
     }
 }
 
-h1::before {  
+h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {  
     transform: scaleX(0);
     transform-origin: bottom right;
 }
 
-h1:hover::before {
+h1:hover::before, h2:hover::before, h3:hover::before, h4:hover::before, h5:hover::before, h6:hover::before {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
 
-h1::before {
+h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
     content: " ";
     display: block;
     position: absolute;
@@ -286,9 +286,8 @@ h1::before {
     transition: transform .3s ease;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
     position: relative;
-    font-size: 5rem;
 }
 
 html {
