@@ -1,3 +1,5 @@
+document.addEventListener('DOMContentLoaded', function() {
+        const sparkleContainer = 
 document.querySelector('.sparkle-container').addEventListener('mousemove', function(e) {
     const sparkle = document.createElement('div');
     sparkle.classList.add('sparkle');
