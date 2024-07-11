@@ -1,15 +1,14 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const sparkleButton = document.querySelector('.sparkle-button');
-    if (sparkleButton) {
-        sparkleButton.addEventListener('mouseover', function(e) {
-            for (let i = 0; i < 10; i++) {
-                createSparkle(e.clientX, e.clientY);
-            }
-        });
-          sparkle.addEventListener('mouseout', () => {
-        sparkle.classList.remove('sparkle-effect');
-    });
-    }
+document.querySelector('.sparkle-container').addEventListener('mousemove', function(e) {
+  const sparkle = document.createElement('div');
+  sparkle.classList.add('sparkle');
+  sparkle.style.left = `${e.clientX - this.offsetLeft}px`;
+  sparkle.style.top = `${e.clientY - this.offsetTop}px`;
+  this.appendChild(sparkle);
+
+  setTimeout(() => {
+    sparkle.remove();
+  }, 1000);
+});
 
     function createSparkle(x, y) {
         const sparkle = document.createElement('div');
