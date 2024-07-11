@@ -10,6 +10,8 @@ body {
     padding: 0;
     background-color: #f0f8ff; /* Alice Blue */
     color: #333;
+    font-size: 16px; /* Increased base font size for better readability */
+    line-height: 1.6; /* Improved line height for better text spacing */
 }
 
 header {
@@ -17,7 +19,8 @@ header {
     color: white;
     padding: 1em 0;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added subtle box-shadow for depth */
+    font-size: 1.2em; /* Slightly larger font size for header */
 }
 
 nav ul {
@@ -28,7 +31,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 15px; /* Increased margin between navigation links */
 }
 
 nav ul li a {
@@ -36,6 +39,7 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
+    font-size: 1.1em; /* Increased font size for navigation links */
 }
 
 nav ul li a:hover {
@@ -45,6 +49,7 @@ nav ul li a:hover {
 main {
     padding: 20px;
     background-color: #e6f7ff; /* Light Cyan */
+    font-size: 1.1em; /* Slightly larger font size for main content */
 }
 
 section {
@@ -69,6 +74,7 @@ section {
 .recipe h3, .tip h3 {
     margin-top: 0;
     color: #ff69b4; /* Hot Pink */
+    font-weight: 700; /* Bolder font weight for headings */
 }
 
 .recipe img {
@@ -88,6 +94,7 @@ section {
 
 .recipe ul li, .recipe ol li, .tip p {
     margin-bottom: 5px;
+    color: #555; /* Slightly darker text color for better contrast */
 }
 
 footer {
@@ -95,7 +102,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
-    font-size: 0.8em;
+    font-size: 0.9em; /* Slightly larger font size for footer */
     position: fixed;
     width: 100%;
     bottom: 0;
@@ -112,6 +119,7 @@ footer {
 
 #shopping-list h2 {
     color: #6a5acd; /* Slate Blue */
+    font-weight: 700; /* Bolder font weight for shopping list heading */
 }
 
 #list {
@@ -142,6 +150,7 @@ button {
     transition: background-color 0.3s, transform 0.3s;
     position: relative;
     overflow: hidden;
+    font-size: 1em; /* Increased font size for buttons */
 }
 
 button:hover {
@@ -174,7 +183,7 @@ button:hover::before {
 
 .social-buttons {
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Centered social buttons */
     gap: 10px;
 }
 
@@ -216,22 +225,23 @@ button:hover::before {
 
 .product-list h3 {
     margin: 10px 0;
-    font-size: 1.2em;
+    font-size: 1.3em; /* Slightly larger font size for product titles */
 }
 
 .product-list p {
-    font-size: 0.9em;
-    color: #555;
+    font-size: 1em; /* Increased font size for product descriptions */
+    color: #555; /* Slightly darker text color for better contrast */
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
     body {
-        font-size: 14px;
+        font-size: 14px; /* Adjusted font size for smaller screens */
     }
 
     header {
         padding: 15px;
+        font-size: 1.1em; /* Adjusted font size for header on smaller screens */
     }
 
     nav ul li {
@@ -246,11 +256,12 @@ button:hover::before {
 
 @media (max-width: 480px) {
     body {
-        font-size: 12px;
+        font-size: 12px; /* Adjusted font size for very small screens */
     }
 
     header {
         padding: 10px;
+        font-size: 1em; /* Adjusted font size for header on very small screens */
     }
 
     nav ul {
@@ -275,6 +286,7 @@ button:hover::before {
         position: fixed;
         width: 100%;
         bottom: 0;
+        font-size: 0.8em; /* Adjusted font size for footer on very small screens */
     }
 }
 
