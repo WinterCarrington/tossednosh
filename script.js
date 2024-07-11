@@ -1,14 +1,15 @@
-document.querySelector('.sparkle-container').addEventListener('mousemove', function(e) {
-  const sparkle = document.createElement('div');
-  sparkle.classList.add('sparkle');
-  sparkle.style.left = `${e.clientX - this.offsetLeft}px`;
-  sparkle.style.top = `${e.clientY - this.offsetTop}px`;
-  this.appendChild(sparkle);
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelector('.sparkle-container').addEventListener('mousemove', function(e) {
+        const sparkle = document.createElement('div');
+        sparkle.classList.add('sparkle');
+        sparkle.style.left = `${e.clientX - this.offsetLeft}px`;
+        sparkle.style.top = `${e.clientY - this.offsetTop}px`;
+        this.appendChild(sparkle);
 
-  setTimeout(() => {
-    sparkle.remove();
-  }, 1000);
-});
+        setTimeout(() => {
+            sparkle.remove();
+        }, 1000);
+    });
 
     function createSparkle(x, y) {
         const sparkle = document.createElement('div');
