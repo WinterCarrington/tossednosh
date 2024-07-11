@@ -35,7 +35,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(20, 1, 56);
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
