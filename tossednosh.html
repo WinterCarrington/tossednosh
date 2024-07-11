@@ -6,6 +6,38 @@
     <title>Tossed Nosh</title>
     <link rel="stylesheet" href="tossednosh.css">
     <script src="script.js" defer></script>
+      <style>
+        .sparkle-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .sparkle-container p {
+            padding: 10px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+        }
+
+        .sparkle {
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            background-color: gold;
+            border-radius: 50%;
+            pointer-events: none;
+            animation: sparkle-animation 1s linear infinite;
+        }
+
+        @keyframes sparkle-animation {
+            0% {
+                transform: scale(1);
+                opacity: 1;
+            }
+            100% {
+                transform: scale(0);
+                opacity: 0;
+            }
+        }
 </head>
 <body>
     <header>
