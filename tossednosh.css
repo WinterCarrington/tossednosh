@@ -16,7 +16,7 @@ body {
 
 header {
     background-color: #6a5acd; /* Slate Blue */
-    color: white;
+    color: rgb(20, 1, 56);
     padding: 1em 0;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added subtle box-shadow for depth */
